@@ -2,3 +2,23 @@
     color: #000000;
     background-color: #ffffff;
 }
+
+.selected-custom{
+    color: #3e3cf0;
+}
+
+.btn-custom{
+    background-color: #3e3cf3;
+	padding: 0.5px 15px;
+	color:white;
+    text-align: center;
+    font-size: 14px;
+    margin: 1px 2px;
+    cursor: pointer;
+	border-radius: 2px;
+}
+
+.logo-custom{
+	padding: 1px 15px;
+	margin: 0px 0px;
+}
