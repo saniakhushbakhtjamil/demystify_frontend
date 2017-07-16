@@ -1,6 +1,7 @@
 .navbar-custom {
     color: #000000;
     background-color: #ffffff;
+	 height: 75px;
 }
 
 .selected-custom{
@@ -19,6 +20,15 @@
 }
 
 .logo-custom{
-	padding: 1px 15px;
 	margin: 0px 0px;
+	
 }
+
+
+
+.list-custom{
+	padding-top: 11px;
+	padding-right: 5px;
+}
+
+
