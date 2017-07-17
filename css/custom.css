@@ -182,4 +182,6 @@
     background-repeat:no-repeat;
 	 height: 570px;
   }
-	
+.sign-form-custom{
+	position: fixed;
+}
