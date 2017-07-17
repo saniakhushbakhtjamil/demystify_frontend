@@ -54,14 +54,13 @@
 	
 }
 
-//https://bootsnipp.com/snippets/vORj6
+/*https://bootsnipp.com/snippets/vORj6*/
 
-body{
-    background:#efefef;
-}
+
 .form-body{
     background:#fff;
     padding:20px;
+	padding-top: 75px;
 }
 .login-form{
     background:rgba(255,255,255,0.8);
@@ -80,11 +79,11 @@ body{
 }
 
 .nav-tabs>li{
-	color:#222 !important;
+	color: #222 !important;
 }
 .nav-tabs>li.active>a, .nav-tabs>li.active>a:hover, .nav-tabs>li.active>a:focus {
     color: #fff;
-    background-color: #d14d42;
+    background-color: #3e3cf0;
     border: none !important;
     border-bottom-color: transparent;
 	border-radius:none !important;
@@ -171,5 +170,15 @@ body{
         font-size:13px;
         padding-top:10px;
     }
-
+ .fullscreen_bg {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-size: cover;
+    background-position: 50% 50%;
+    background-image: url('../images/background-home.PNG');
+    background-repeat:repeat;
+  }
 	
