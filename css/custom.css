@@ -64,7 +64,8 @@ html {
 .form-body{
     background:#fff;
     padding:20px;
-	padding-top: 75px;
+	padding-top: 20px;
+	margin-top: 0px;
 }
 .login-form{
     background:rgba(255,255,255,0.8);
@@ -300,5 +301,24 @@ html {
 
 #custom-search-input .glyphicon-search{
     font-size: 23px;
+}
+
+
+/* https://bootsnipp.com/snippets/3XrvX  */
+.portfolio .thumbnail {
+    position: relative;
+}
+
+.portfolio .thumbnail:hover {
+    cursor: pointer;
+}
+
+.portfolio .caption {
+    bottom: 0;
+    position: absolute;
+}
+
+.portfolio .btn {
+    opacity: 0.75;
 }
 
