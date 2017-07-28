@@ -1,0 +1,101 @@
+ .fullscreen_bgv2 {
+   position:static;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-size: cover;
+    background-position: 50% 50%;
+    background-image: url('../images/background-home.PNG');
+    background-repeat:no-repeat;
+	 height: 300px;
+  }
+.form-body2{
+	 background:#fff;
+	border: solid;
+	border-color: #3e3cf3;
+    padding:20px;
+	padding-top: 20px;
+	margin-top: 180px;
+}
+body { padding-top:30px; }
+.widget .panel-body { padding:0px; }
+.widget .list-group { margin-bottom: 0; }
+.widget .panel-title { display:inline }
+.widget .label-info { float: right; }
+.widget li.list-group-item {border-radius: 0;border: 0;border-top: 1px solid #ddd;}
+.widget li.list-group-item:hover { background-color: rgba(86,61,124,.1); }
+.widget .mic-info { color: #666666;font-size: 11px; }
+.widget .action { margin-top:5px; }
+.widget .comment-text { font-size: 12px; }
+.widget .btn-block { border-top-left-radius:0px;border-top-right-radius:0px; }
+.image_ip { 
+   position: relative; 
+   width: 40%; /* for IE 6 */
+	
+}
+
+.text_on_image { 
+   position: absolute; 
+   top: 35px; 
+   left: 20px; 
+   width: 100%;
+}
+.layer-custom{
+    background-color: rgba(62, 60, 243, 0.7);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.dropbtn {
+    background-color: #3e3cf3;
+    color: white;
+    padding: 10px;
+    font-size: 12px; 
+    border: none;
+    cursor: pointer;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: #5A5858;
+}
+.color-custom{
+	color: #3e3cf3;
+}
+.color-custom-b{
+	color: black;
+}
+
+.color-custom-g{
+	background-color: #B8B8B8;
+}
